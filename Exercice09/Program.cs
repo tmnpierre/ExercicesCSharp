@@ -1,13 +1,16 @@
-﻿Console.WriteLine("--- Calcul des intérêts --- \n");
-Console.Write("Entrez Capital de départ (en Euros): ");
-var a = double.Parse(Console.ReadLine());
-Console.Write("Entré le taux d'intérêt (en %): ");
-var b = double.Parse(Console.ReadLine());
-Console.Write("Entré la durée de l'épargne (en années): ");
-var c = double.Parse(Console.ReadLine());
+﻿Console.WriteLine("--- Calcul des intérêts composés --- \n");
 
-Console.WriteLine();
-double d = (a * (b / 100) * c);
-Console.WriteLine($"Le montant des intérêt sera de {d} euros en {c} années");
-double e = a + d;
-Console.WriteLine($"Le Capital final est de {e} euros");
+Console.Write("Entrez le Capital de départ (en Euros): ");
+var principal = double.Parse(Console.ReadLine());
+
+Console.Write("Entrez le taux d'intérêt annuel (en %): ");
+var annualInterestRate = double.Parse(Console.ReadLine()) / 100; // Convertir le pourcentage en décimal
+
+Console.Write("Entrez la durée de l'épargne (en années): ");
+var years = int.Parse(Console.ReadLine());
+
+double amount = principal * Math.Pow(1 + annualInterestRate, years);
+double interest = amount - principal;
+
+Console.WriteLine($"\nLe montant des intérêts sera de {interest:F2} euros en {years} années");
+Console.WriteLine($"Le Capital final est de {amount:F2} euros");
