@@ -9,7 +9,7 @@ var annualInterestRate = double.Parse(Console.ReadLine()) / 100;
 Console.Write("Entrez la durée de l'épargne (en années): ");
 var years = int.Parse(Console.ReadLine());
 
-double amount = principal * Math.Pow(1 + annualInterestRate, years);
+double amount = principal * Math.Pow(1 + annualInterestRate, years) - principal;
 double interest = amount - principal;
 
 Console.WriteLine($"\nLe montant des intérêts sera de {interest:F2} euros en {years} années");
