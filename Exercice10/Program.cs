@@ -1,13 +1,12 @@
-﻿using System.ComponentModel.Design;
-
-Console.Write("Entrer une lettre: ");
+﻿Console.Write("Entrer une lettre: ");
 var input = Console.ReadLine();
 
 if (!string.IsNullOrEmpty(input))
 {
     var voyelle = Char.ToUpper(input[0]);
+    string vowels = "AEIOUY";
 
-    if (voyelle == 'A' || voyelle == 'E' || voyelle == 'I' || voyelle == 'O' || voyelle == 'U' || voyelle == 'Y')
+    if (vowels.Contains(voyelle))
         Console.WriteLine("Cette lettre est une voyelle");
     else
         Console.WriteLine("Cette lettre n'est pas une voyelle");
