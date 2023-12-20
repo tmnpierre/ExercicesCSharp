@@ -4,7 +4,7 @@ Console.Write("Entrez le Capital de départ (en Euros): ");
 var principal = double.Parse(Console.ReadLine());
 
 Console.Write("Entrez le taux d'intérêt annuel (en %): ");
-var annualInterestRate = double.Parse(Console.ReadLine()) / 100; // Convertir le pourcentage en décimal
+var annualInterestRate = double.Parse(Console.ReadLine()) / 100;
 
 Console.Write("Entrez la durée de l'épargne (en années): ");
 var years = int.Parse(Console.ReadLine());
