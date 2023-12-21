@@ -3,7 +3,7 @@ var input = Console.ReadLine();
 
 if (!string.IsNullOrEmpty(input) && input.Length == 1)
 {
-    var voyelle = Char.ToUpper(input);
+    var voyelle = Char.ToUpper(input[0]);
     string vowels = "AEIOUY";
 
     if (vowels.Contains(voyelle))
