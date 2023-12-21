@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-int age, anciennete;
+﻿int age, anciennete;
 double dernierSalaire, indemnite = 0;
 
 Console.Write("Merci de saisir le dernier salaire en euros:");
