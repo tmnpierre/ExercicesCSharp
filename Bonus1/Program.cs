@@ -1,4 +1,10 @@
-﻿int tableSize = 10;
+﻿Console.Write("Entrez le nombre de table de multiplication que vous souhaitez voir : ");
+int tableSize;
+while (!int.TryParse(Console.ReadLine(), out tableSize))
+{
+    Console.WriteLine("Veuillez entrer un nombre valide.");
+}
+
 Console.Write(" ".PadRight(3));
 for (int i = 1; i <= tableSize; i++)
 {
@@ -6,6 +12,7 @@ for (int i = 1; i <= tableSize; i++)
 }
 Console.WriteLine("|");
 Console.WriteLine(new String('=', tableSize * 4 + 4));
+
 for (int i = 1; i <= tableSize; i++)
 {
     Console.Write(i.ToString().PadRight(3) + "|");
