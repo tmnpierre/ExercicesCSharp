@@ -57,11 +57,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bonus1", "Bonus1\Bonus1.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bonus2", "Bonus2\Bonus2.csproj", "{EF478D7D-97BF-4D8F-A5BB-A5484CC3A3AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice28", "Exercice28\Exercice28.csproj", "{87561589-ACF0-4E76-A365-DF7144589A93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice28", "Exercice28\Exercice28.csproj", "{87561589-ACF0-4E76-A365-DF7144589A93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice30", "Exercice30\Exercice30.csproj", "{0977461E-E7B0-4F54-9CA4-AA0695CE3F94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice30", "Exercice30\Exercice30.csproj", "{0977461E-E7B0-4F54-9CA4-AA0695CE3F94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer", "Timer\Timer.csproj", "{2C944B5C-E55B-4DD0-81D8-DBD842810CBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timer", "Timer\Timer.csproj", "{2C944B5C-E55B-4DD0-81D8-DBD842810CBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice32", "Exercice32\Exercice32.csproj", "{E181B2D8-9F16-49A0-A5AF-1AE206102E1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -185,6 +187,10 @@ Global
 		{2C944B5C-E55B-4DD0-81D8-DBD842810CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C944B5C-E55B-4DD0-81D8-DBD842810CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C944B5C-E55B-4DD0-81D8-DBD842810CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E181B2D8-9F16-49A0-A5AF-1AE206102E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E181B2D8-9F16-49A0-A5AF-1AE206102E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E181B2D8-9F16-49A0-A5AF-1AE206102E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E181B2D8-9F16-49A0-A5AF-1AE206102E1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
