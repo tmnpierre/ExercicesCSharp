@@ -48,9 +48,9 @@ BonjourQuelleHeure2("Guillaume", heure: "16h00", chaines: new string[] { "a", "b
 static int CompteurLettreA(string chaine)
 {
     int compteur = 0;
-    foreach (char lettre in chaine)
+    foreach (char lettre in chaine.ToLower())
     {
-        if (lettre == 'a' || lettre == 'A')
+        if (lettre == 'a')
         {
             compteur++;
         }
