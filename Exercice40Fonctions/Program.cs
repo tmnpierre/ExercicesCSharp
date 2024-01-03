@@ -41,6 +41,10 @@ void BonjourQuelleHeure2(string nom, string heure = "12h00", params string[] cha
 
 BonjourQuelleHeure2("Edouard");
 BonjourQuelleHeure2("Jean", "14h00", "chaine1", "chaine2", "Chaine3");
+
+BonjourQuelleHeure2(nom: "Guillaume", heure: "16h00", chaines: new string[] { "a", "b" });
+BonjourQuelleHeure2(nom: "Guillaume", chaines: new string[] { "a", "b" });
+BonjourQuelleHeure2("Guillaume", heure: "16h00", chaines: new string[] { "a", "b" });
 static int CompteurLettreA(string chaine)
 {
     int compteur = 0;
