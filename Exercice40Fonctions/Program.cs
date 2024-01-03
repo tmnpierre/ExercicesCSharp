@@ -28,7 +28,19 @@ void BonjourQuelleHeure(string nom, string heure = "12h00")
 }
 
 BonjourQuelleHeure("Benoit");
-BonjourQuelleHeure("Jules", "14h00"); 
+BonjourQuelleHeure("Jules", "14h00");
+
+void BonjourQuelleHeure2(string nom, string heure = "12h00", params string[] chaines)
+{
+    Console.WriteLine($"Bonjour {nom} il est {heure}");
+    foreach (string chaine in chaines)
+    {
+        Console.WriteLine(chaine);
+    }
+}
+
+BonjourQuelleHeure2("Edouard");
+BonjourQuelleHeure2("Jean", "14h00", "chaine1", "chaine2", "Chaine3");
 static int CompteurLettreA(string chaine)
 {
     int compteur = 0;
