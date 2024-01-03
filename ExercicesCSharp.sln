@@ -69,25 +69,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice34", "Exercice34\Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice37", "Exercice37\Exercice37.csproj", "{3AB1D897-D9F8-443D-ACA5-74B75A24D2E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice38", "Exercice38\Exercice38.csproj", "{1159E99C-F581-407E-BCAA-3186A41F0F59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice38", "Exercice38\Exercice38.csproj", "{1159E99C-F581-407E-BCAA-3186A41F0F59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice39", "Exercice39\Exercice39.csproj", "{50CAB667-BB9A-4678-B3CE-AC8FDD720DA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice39", "Exercice39\Exercice39.csproj", "{50CAB667-BB9A-4678-B3CE-AC8FDD720DA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice26", "Exercice26\Exercice26.csproj", "{3522E2D4-EEFD-42B0-8204-EFC3B9D0077F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice26", "Exercice26\Exercice26.csproj", "{3522E2D4-EEFD-42B0-8204-EFC3B9D0077F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice27", "Exercice27\Exercice27.csproj", "{5CB9AEE3-49E2-4BF2-8439-E3EDA78C0B52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice27", "Exercice27\Exercice27.csproj", "{5CB9AEE3-49E2-4BF2-8439-E3EDA78C0B52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice29", "Exercice29\Exercice29.csproj", "{CCC5C60A-5567-42BD-9504-9D6B8B72D713}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice29", "Exercice29\Exercice29.csproj", "{CCC5C60A-5567-42BD-9504-9D6B8B72D713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice25BisSapin", "Exercice25BisSapin\Exercice25BisSapin.csproj", "{9735AC07-10CF-4AE9-9236-C70E972D0460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice25BisSapin", "Exercice25BisSapin\Exercice25BisSapin.csproj", "{9735AC07-10CF-4AE9-9236-C70E972D0460}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice31", "Exercice31\Exercice31.csproj", "{600D8556-96FA-40B3-8CA0-18E933925DF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice31", "Exercice31\Exercice31.csproj", "{600D8556-96FA-40B3-8CA0-18E933925DF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice33", "Exercice33\Exercice33.csproj", "{7C8684D2-AEE6-4CA3-B69A-4B9EC8031C58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice33", "Exercice33\Exercice33.csproj", "{7C8684D2-AEE6-4CA3-B69A-4B9EC8031C58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice35", "Exercice35\Exercice35.csproj", "{A350DF37-AC7F-4F6F-B21D-295AD354CB7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice35", "Exercice35\Exercice35.csproj", "{A350DF37-AC7F-4F6F-B21D-295AD354CB7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice36a", "Exercice36a\Exercice36a.csproj", "{95FA228A-B253-40EB-AE49-448DE4495958}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice36a", "Exercice36a\Exercice36a.csproj", "{95FA228A-B253-40EB-AE49-448DE4495958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice40Fonctions", "Exercice40Fonctions\Exercice40Fonctions.csproj", "{06866A37-1FBF-4C16-AB71-A823CA00CA48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -263,6 +265,10 @@ Global
 		{95FA228A-B253-40EB-AE49-448DE4495958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95FA228A-B253-40EB-AE49-448DE4495958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95FA228A-B253-40EB-AE49-448DE4495958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06866A37-1FBF-4C16-AB71-A823CA00CA48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06866A37-1FBF-4C16-AB71-A823CA00CA48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06866A37-1FBF-4C16-AB71-A823CA00CA48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06866A37-1FBF-4C16-AB71-A823CA00CA48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
