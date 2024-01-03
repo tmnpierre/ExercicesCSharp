@@ -1,4 +1,4 @@
-﻿Console.WriteLine("***** Le Grand tirage au sort ! *****");
+﻿Console.WriteLine("***** Le Grand Tirage au Sort ! *****");
 Console.WriteLine();
 
 bool continuer = true;
@@ -27,61 +27,61 @@ List<string> prenoms = new List<string>
             "Lina",
             "Nathan"
         };
-List<string> prenomsTired = new List<string> { };
+List<string> prenomsTires = new List<string>();
 
 while (continuer)
 {
     Console.Clear();
     Console.WriteLine("1--- Effectuer un tirage\n2--- Voir la liste des personnes déjà tirées\n3--- Voir la liste des personnes restantes\n0--- Quitter");
-    Console.Write("\nSaisir votre choix : ");
+    Console.Write("\nSaisissez votre choix : ");
     var saisie = Console.ReadLine();
-    
+
     switch (saisie)
     {
         case "0":
-            continuer = false; 
+            continuer = false;
             break;
         case "1":
             Console.Clear();
             if (prenoms.Count > 0)
             {
                 int index = random.Next(prenoms.Count);
-                string selectedName = prenoms[index];
-                prenomsTired.Add(selectedName);
+                string prenomSelectionne = prenoms[index];
+                prenomsTires.Add(prenomSelectionne);
                 prenoms.RemoveAt(index);
-                Console.WriteLine($"Prenom tiré au sort: {selectedName}");
-                Console.Write("Appuyer sur une touche pour revenir au menu : ");
+                Console.WriteLine($"Prénom tiré au sort : {prenomSelectionne}");
+                Console.Write("Appuyez sur une touche pour revenir au menu : ");
                 Console.ReadKey();
             }
             else
             {
-                Console.WriteLine("Tout le monde est mort.");
-                Console.Write("Appuyer sur une touche pour revenir au menu : ");
+                Console.WriteLine("Tous les prénoms ont été tirés.");
+                Console.Write("Appuyez sur une touche pour revenir au menu : ");
                 Console.ReadKey();
             }
             break;
         case "2":
             Console.Clear();
             Console.WriteLine("Prénoms déjà tirés :");
-            foreach (string name in prenomsTired)
+            foreach (string nom in prenomsTires)
             {
-                Console.WriteLine(name);
+                Console.WriteLine(nom);
             }
-            Console.Write("Appuyer sur une touche pour revenir au menu : ");
+            Console.Write("Appuyez sur une touche pour revenir au menu : ");
             Console.ReadKey();
             break;
         case "3":
             Console.Clear();
             Console.WriteLine("Liste des personnes restantes :");
-            foreach (string s in prenoms)
+            foreach (string nom in prenoms)
             {
-                Console.WriteLine(s);
+                Console.WriteLine(nom);
             }
-            Console.Write("Appuyer sur une touche pour revenir au menu : ");
+            Console.Write("Appuyez sur une touche pour revenir au menu : ");
             Console.ReadKey();
             break;
         default:
-            Console.WriteLine("Choix non valide. Veuillez faire un choix valide");
+            Console.WriteLine("Choix non valide. Veuillez faire un choix valide.");
             break;
     }
 }
