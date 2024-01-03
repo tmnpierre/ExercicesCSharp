@@ -14,14 +14,21 @@ int Soustraire(int a,  int b)
 int sub = Soustraire(2, 1);
 Console.WriteLine("Résulat : " + sub);
 
-static string QuelleHeure(string heure = "12h00")
+void QuelleHeure(string heure = "12h00")
 {
-    return heure;
+    Console.WriteLine($"Il est {heure}"); 
 }
 
-Console.WriteLine(QuelleHeure());
-Console.WriteLine(QuelleHeure("14h00"));
+QuelleHeure();
+QuelleHeure("14h00");
 
+void BonjourQuelleHeure(string nom, string heure = "12h00")
+{
+    Console.WriteLine($"Bonjour {nom} il est {heure}");
+}
+
+BonjourQuelleHeure("Benoit");
+BonjourQuelleHeure("Jules", "14h00"); 
 static int CompteurLettreA(string chaine)
 {
     int compteur = 0;
@@ -38,3 +45,12 @@ static int CompteurLettreA(string chaine)
 
 Console.WriteLine(CompteurLettreA("Banana"));
 Console.WriteLine(CompteurLettreA("Bonjour"));
+
+static int CompteurLettreB(string chaine)
+{
+    Console.Write("Resultat : ");
+    return chaine.Count(lettre => lettre == 'b' || lettre == 'B');
+}
+
+Console.WriteLine(CompteurLettreB("Bonobo"));
+Console.WriteLine(CompteurLettreB("Hallo"));
